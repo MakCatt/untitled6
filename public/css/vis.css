@@ -43,11 +43,7 @@ body{
     opacity: 0.5;
 }
 
-#map {
-    border: 2px solid #333;
-    width: 80vw;
-    height: 80vh;
-}
+
 
 .site-footer
 {
