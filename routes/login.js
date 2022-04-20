@@ -4,6 +4,6 @@ const router = express.Router();
 
 router
     .route("/")
-    .get((req, res) => res.sendFile(__dirname+"/login.ejs"))
+    .get((req, res) => res.sendFile(__dirname+"/login.html"))
 
 module.exports = router;
