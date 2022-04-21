@@ -4,6 +4,6 @@ const router = express.Router();
 
 router
     .route("/")
-    .get((req, res) => res.sendFile(__dirname+"/teachers.ejs"))
+    .get((req, res) => res.render(__dirname+"/teachers.ejs"))
 
 module.exports = router;
