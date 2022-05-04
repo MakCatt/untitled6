@@ -4,6 +4,6 @@ const router = express.Router();
 
 router
     .route("/")
-    .get((req, res) => res.render(__dirname+"/vision.ejs"))
+    .get((req, res) => res.render("vision.ejs"))
 
 module.exports = router;
